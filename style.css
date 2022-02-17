@@ -1,0 +1,87 @@
+.contenitore{width: 300px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 60px;
+    
+    
+}
+body{ display: block;
+    text-align: center;
+    position: relative;
+
+}
+.prima-img{height: 360px;
+    width: 300px;
+
+    
+}
+.container-price{
+    text-align: left;
+    
+}
+
+
+.container{position:relative;
+    width: 300px; 
+   
+}
+.container >.cuore{position:absolute;
+    width: 30px;
+    height: 30px;
+    line-height:30px;
+    top: 20px;
+    right:0;
+    background-color: white;
+    text-align: center;
+
+   
+}
+.sconto1{ width:55px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    text-align: center;
+
+}
+.info1{ width:85px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    text-align: center;
+
+}
+.secondo-contenitore >.sconto1{position:absolute;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.prodotto1{font-size:20px;
+
+}
+.prezzo1{color: red;
+
+}
+.left6{
+    left: 0;
+}
+
+.hover{
+    display: none;
+}
+.prima-img:hover + .hover{
+    display: block;
+
+}
+.active:hover{
+    display: none;
+}
+
+
+
